@@ -14,14 +14,13 @@ h1 {
 .calculator {
   width: 100%;
   height: fit-content;
-  border-radius: 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 .buttons {
   border: 3px solid #642f00;
-  border-right: 7px double #642f00;
+  box-shadow: 4px 1.5px #642f00;
   border-bottom-width: 5px;
   font-size: 30px;
   border-radius: 10px;
@@ -30,33 +29,25 @@ h1 {
   height: 330px;
   text-align: center;
 }
-.button {
+.button,
+.especial-button,
+.plus-button,
+.equal-button {
   width: 40px;
   height: 40px;
-  background-color: #c0e6fb;
   color: #642f00;
+  background-color: #c0e6fb;
+  font-weight: bold;
+  border: 3px solid #642f00;
+  border-radius: 6px;
+  box-shadow: 2px 1px #642f00;
+  margin-right: 5px;
+  margin-bottom: 2px;
   font-size: 25px;
-  font-weight: bold;
-  border: 3px solid #642f00;
-  border-radius: 6px;
-  border-right: 3px double #642f00;
-  border-bottom: 2px double #642f00;
-  margin-right: 5px;
-  margin-bottom: 2px;
 }
+
 .especial-button {
-  width: 40px;
-  height: 40px;
-  background-color: #c0e6fb;
-  color: #642f00;
   font-size: smaller;
-  font-weight: bold;
-  border: 3px solid #642f00;
-  border-radius: 6px;
-  border-right: 3px double #642f00;
-  border-bottom: 2px double #642f00;
-  margin-right: 5px;
-  margin-bottom: 2px;
 }
 .screen {
   width: 220px;
@@ -99,31 +90,7 @@ p {
   margin-right: 12px;
 }
 .plus-button {
-  width: 40px;
   height: 82px;
-  background-color: #c0e6fb;
-  color: #642f00;
-  font-size: 25px;
-  font-weight: bold;
-  border: 3px solid #642f00;
-  border-radius: 6px;
-  border-right: 3px double #642f00;
-  border-bottom: 2px double #642f00;
-  margin-right: 5px;
-  margin-bottom: 2px;
   float: left;
 }
-.equal-button {
-  width: 40px;
-  height: 40px;
-  background-color: #c0e6fb;
-  color: #642f00;
-  font-size: 25px;
-  font-weight: bold;
-  border: 3px solid #642f00;
-  border-radius: 6px;
-  border-right: 3px double #642f00;
-  border-bottom: 2px double #642f00;
-  margin-right: 5px;
-  margin-bottom: 2px;
-}
+
