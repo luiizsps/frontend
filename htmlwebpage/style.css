@@ -72,6 +72,7 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
 }
+
 /*
 li:nth-child(even) {
    color: red 
@@ -81,6 +82,7 @@ article p:last-child {
   color: red; 
 }
 */
+
 a:link {
   color: #1098ad;
   text-decoration: none;
