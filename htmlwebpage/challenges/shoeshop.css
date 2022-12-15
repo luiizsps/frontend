@@ -1,0 +1,47 @@
+article {
+  border: 3px solid rgb(14, 11, 11);
+  color: black;
+}
+h2 {
+  background-color: rgb(243, 243, 243);
+}
+h2,
+.underprice,
+h3,
+button {
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+}
+
+.price {
+  font-size: larger;
+}
+
+.underprice {
+  color: #444;
+  font-size: smaller;
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button {
+  height: 25px;
+  width: 120px;
+  color: white;
+  background-color: black;
+}
+
+button:hover {
+  color: black;
+  background-color: white;
+  border: none;
+}
