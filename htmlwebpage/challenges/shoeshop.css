@@ -1,47 +1,62 @@
 article {
   border: 3px solid rgb(14, 11, 11);
   color: black;
+  font-family: sans-serif;
+  line-height: 1.4;
 }
-h2 {
-  background-color: rgb(243, 243, 243);
-}
+
 h2,
 .underprice,
-h3,
+.details-title,
 button {
   text-transform: uppercase;
 }
 
 h2 {
   text-align: center;
+  font-size: 22px;
+  background-color: #f7f7f7;
 }
 
 .price {
-  font-size: larger;
+  font-size: 24px;
 }
 
 .underprice {
-  color: #444;
-  font-size: smaller;
+  color: #777;
+  font-size: 12px;
+  font-weight: bold;
 }
 
-a:link {
+.moreinfo:link,
+.moreinfo:visited {
   color: black;
 }
 
-a:hover {
+.moreinfo:hover,
+.moreinfo:active {
   text-decoration: none;
 }
 
-button {
-  height: 25px;
-  width: 120px;
-  color: white;
-  background-color: black;
+/* PRODUCT DETAILS */
+.details-title {
+  font-size: 16px;
 }
 
-button:hover {
-  color: black;
-  background-color: white;
+.detail-list {
+  list-style: square;
+}
+
+/* BUTTON */
+.add-cart {
+  color: #fff;
+  background-color: #000;
   border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.add-cart:hover {
+  color: #000;
+  background-color: #fff;
 }
