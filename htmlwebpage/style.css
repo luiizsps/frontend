@@ -27,6 +27,8 @@ h2 {
 
 h3 {
   font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 h4 {
@@ -38,6 +40,7 @@ h4 {
 p {
   font-size: 22px;
   line-height: 1.5;
+  margin-bottom: 15px;
 }
 
 li {
@@ -67,6 +70,10 @@ li:last-child {
   font-weight: bold;
 }
 
+article {
+  margin-bottom: 60px;
+}
+
 .related {
   list-style: none;
 }
@@ -77,6 +84,10 @@ li:last-child {
   margin-bottom: 60px;
 }
 
+.post-header {
+  margin-bottom: 40px;
+}
+
 aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
@@ -84,6 +95,11 @@ aside {
   padding: 50px 0px;
 }
 
+ol, 
+ul {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
 /*
 li:nth-child(even) {
    color: red 
