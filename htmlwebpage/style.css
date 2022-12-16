@@ -1,6 +1,8 @@
-/*
-* {}
-*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   color: #444;
   font-family: sans-serif;
@@ -20,6 +22,7 @@ h1 {
 
 h2 {
   font-size: 40px;
+  margin-bottom: 30px;
 }
 
 h3 {
@@ -39,6 +42,11 @@ p {
 
 li {
   font-size: 20px;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-botton: 0px;
 }
 
 /*footer p {
@@ -66,12 +74,14 @@ li {
 .main-header {
   background-color: #f7f7f7;
   padding: 20px 40px;
+  margin-bottom: 60px;
 }
 
 aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
+  padding: 50px 0px;
 }
 
 /*
