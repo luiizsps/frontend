@@ -1,6 +1,8 @@
-/*
-* {}
-*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   color: #444;
   font-family: sans-serif;
@@ -20,10 +22,13 @@ h1 {
 
 h2 {
   font-size: 40px;
+  margin-bottom: 30px;
 }
 
 h3 {
   font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 h4 {
@@ -35,10 +40,16 @@ h4 {
 p {
   font-size: 22px;
   line-height: 1.5;
+  margin-bottom: 15px;
 }
 
 li {
   font-size: 20px;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0px;
 }
 
 /*footer p {
@@ -59,29 +70,38 @@ li {
   font-weight: bold;
 }
 
+article {
+  margin-bottom: 60px;
+}
+
 .related {
   list-style: none;
 }
 
 .main-header {
   background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  height: 80px;
+}
+
+.post-header {
+  margin-bottom: 40px;
 }
 
 aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
+  padding: 50px 0px;
+  width: 500px;
 }
 
-/*
-li:nth-child(even) {
-   color: red 
+ol,
+ul {
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
-
-article p:last-child {
-  color: red; 
-}
-*/
 
 a:link {
   color: #1098ad;
