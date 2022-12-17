@@ -1,8 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 850px;
+  margin: 40px auto;
+}
+
 article {
   border: 3px solid rgb(14, 11, 11);
   color: black;
   font-family: sans-serif;
   line-height: 1.4;
+  border-bottom: none;
+  width: 100%;
 }
 
 h2,
@@ -10,12 +22,14 @@ h2,
 .details-title,
 button {
   text-transform: uppercase;
+  border: none;
 }
 
 h2 {
   text-align: center;
   font-size: 22px;
   background-color: #f7f7f7;
+  padding: 10px;
 }
 
 .price {
@@ -26,6 +40,7 @@ h2 {
   color: #777;
   font-size: 12px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .moreinfo:link,
@@ -41,6 +56,8 @@ h2 {
 /* PRODUCT DETAILS */
 .details-title {
   font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
 .detail-list {
@@ -51,12 +68,29 @@ h2 {
 .add-cart {
   color: #fff;
   background-color: #000;
-  border: none;
+  border: 3px solid rgb(14, 11, 11);
+  border-left: 0;
+  border-right: 0;
   font-size: 20px;
   cursor: pointer;
+  width: 100%;
+  padding: 10px;
 }
 
 .add-cart:hover {
   color: #000;
   background-color: #fff;
+}
+
+.phrase {
+  margin-bottom: 5px;
+}
+
+li {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+li:last-child {
+  margin-bottom: 0;
 }
