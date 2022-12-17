@@ -87,6 +87,7 @@ aside {
 li:nth-child(even) {
    color: red 
 }
+*/
 
 a:link {
   color: #1098ad;
@@ -97,4 +98,9 @@ a:hover {
   color: orangered;
   font-weight: bold;
   text-decoration: underline orangered;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
 }
