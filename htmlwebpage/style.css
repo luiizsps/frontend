@@ -45,11 +45,6 @@ p {
 
 li {
   font-size: 20px;
-  margin-bottom: 10px;
-}
-
-li:last-child {
-  margin-bottom: 0px;
 }
 
 /*footer p {
@@ -80,27 +75,17 @@ article {
 
 .main-header {
   background-color: #f7f7f7;
-  padding: 20px 40px;
-  margin-bottom: 60px;
-  height: 80px;
-}
-
-.post-header {
-  margin-bottom: 40px;
 }
 
 aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  padding: 50px 0px;
-  width: 500px;
 }
 
-ol,
-ul {
-  margin-left: 50px;
-  margin-bottom: 20px;
+/*
+li:nth-child(even) {
+   color: red 
 }
 
 a:link {
