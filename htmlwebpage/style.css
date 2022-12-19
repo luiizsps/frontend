@@ -14,6 +14,7 @@ body {
 .container {
   width: 800px;
   margin: 0 auto;
+  position: relative;
 }
 
 .main-header {
@@ -148,4 +149,12 @@ a:hover {
 .post-img {
   width: 100%;
   height: auto;
+}
+
+.like-button {
+  padding: 20px;
+  cursor: pointer;
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
 }
