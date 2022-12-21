@@ -62,10 +62,23 @@ button {
   display: inline-block;
   height: 15px;
   width: 15px;
+  margin-right: 10px;
 }
 
 .black-box {
   background-color: #000;
+}
+
+.blue-box {
+  background-color: #00f;
+}
+
+.red-box {
+  background-color: #f00;
+}
+
+.yellow-box {
+  background-color: ;
 }
 
 /* PRODUCT DETAILS */
