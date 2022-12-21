@@ -49,6 +49,25 @@ button {
   text-decoration: none;
 }
 
+.color-options {
+  margin-top: 20px;
+}
+
+.black-box,
+.blue-box,
+.red-box,
+.yellow-box,
+.green-box,
+.brown-box {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+}
+
+.black-box {
+  background-color: #000;
+}
+
 /* PRODUCT DETAILS */
 .details-title {
   font-size: 16px;
