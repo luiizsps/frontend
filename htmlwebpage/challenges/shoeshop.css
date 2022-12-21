@@ -11,8 +11,19 @@
   border-bottom: none;
   width: 850px;
   margin: 50px auto;
+  position: relative;
 }
 
+.sale {
+  position: absolute;
+  background-color: #f00;
+  color: #fff;
+  height: 20px;
+  width: fit-content;
+  padding: 5px 10px;
+  left: -20px;
+  top: -20px;
+}
 .product-title,
 .underprice,
 .details-title,
@@ -78,7 +89,16 @@ button {
 }
 
 .yellow-box {
-  background-color: ;
+  background-color: #ff0;
+}
+
+.green-box {
+  background-color: #0f0;
+}
+
+.brown-box {
+  background-color: #cd7f32;
+  margin-right: 0;
 }
 
 /* PRODUCT DETAILS */
