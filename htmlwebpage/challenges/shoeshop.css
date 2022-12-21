@@ -15,15 +15,18 @@
 }
 
 .sale {
-  position: absolute;
-  background-color: #f00;
+  background-color: #ec2f2f;
   color: #fff;
-  height: 20px;
-  width: fit-content;
-  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 7px 15px;
+  position: absolute;
+  text-transform: uppercase;
   left: -20px;
   top: -20px;
+  letter-spacing: 2px;
 }
+
 .product-title,
 .underprice,
 .details-title,
