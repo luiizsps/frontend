@@ -64,24 +64,13 @@ button {
   text-decoration: none;
 }
 
-.colors {
-  background-color: #fff;
-}
-
-.black-box,
-.blue-box,
-.red-box,
-.yellow-box,
-.green-box,
-.brown-box {
+.color {
+  background-color: #000;
+  margin-top: 25px;
   height: 22px;
   width: 22px;
   display: inline-block;
-  margin-right: 5px;
-}
-
-.black-box {
-  background-color: #000;
+  margin-right: 8px;
 }
 
 .blue-box {
