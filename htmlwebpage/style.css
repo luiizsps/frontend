@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
 /* PAGE SECTIONS */
@@ -50,7 +51,6 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 50px 40px;
-  box-sizing: border-box;
 }
 
 /* SMALLER ELEMENTS */
