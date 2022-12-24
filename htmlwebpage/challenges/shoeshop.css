@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .product {
@@ -45,6 +46,7 @@ button {
 
 .price {
   font-size: 24px;
+  display: inline-block;
 }
 
 .underprice {
@@ -52,6 +54,8 @@ button {
   font-size: 12px;
   font-weight: bold;
   margin-bottom: 20px;
+  margin-top: 7.5px;
+  float: right;
 }
 
 .moreinfo:link,
@@ -97,7 +101,6 @@ button {
 /* PRODUCT DETAILS */
 .details-title {
   font-size: 16px;
-  margin-top: 30px;
   margin-bottom: 15px;
 }
 
@@ -130,4 +133,20 @@ button {
 .details-list li {
   margin-left: 20px;
   margin-bottom: 5px;
+}
+
+.product-img {
+  display: inline-block;
+}
+
+.main {
+  display: inline-block;
+  width: 240px;
+  margin-left: 45px;
+}
+
+.product-details {
+  display: inline-block;
+  width: 240px;
+  margin-left: 45px;
 }
