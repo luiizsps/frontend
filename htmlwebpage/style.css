@@ -49,7 +49,8 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  padding: 50px 0;
+  padding: 50px 40px;
+  box-sizing: border-box;
 }
 
 /* SMALLER ELEMENTS */
@@ -123,6 +124,7 @@ li:last-child {
 
 .related {
   list-style: none;
+  margin-left: 0;
 }
 
 /*
