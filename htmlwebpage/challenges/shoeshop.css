@@ -10,7 +10,7 @@
   font-family: sans-serif;
   line-height: 1.4;
   border-bottom: none;
-  width: 850px;
+  width: 825px;
   margin: 50px auto;
   position: relative;
 }
@@ -46,7 +46,7 @@ button {
 
 .price {
   font-size: 24px;
-  display: inline-block;
+  float: left;
 }
 
 .underprice {
@@ -128,6 +128,7 @@ button {
 
 .phrase {
   margin-bottom: 5px;
+  clear: both;
 }
 
 .details-list li {
@@ -136,17 +137,19 @@ button {
 }
 
 .product-img {
-  display: inline-block;
+  float: left;
+  margin-right: 40px;
 }
 
 .main {
-  display: inline-block;
-  width: 240px;
-  margin-left: 45px;
+  width: 243px;
+  float: left;
+  padding-top: 20px;
 }
 
 .product-details {
-  display: inline-block;
-  width: 240px;
-  margin-left: 45px;
+  float: left;
+  width: 243px;
+  margin-left: 40px;
+  margin-top: 20px;
 }
