@@ -137,18 +137,19 @@ button {
 
 .product-img {
   float: left;
-  margin-right: 40px;
+  margin-right: 5%;
+  width: 30%;
 }
 
 .main {
-  width: 243px;
+  width: 30%;
   float: left;
   padding-top: 20px;
 }
 
 .product-details {
   float: left;
-  width: 243px;
-  margin-left: 40px;
+  width: 30%;
+  margin-left: 5%;
   margin-top: 20px;
 }
