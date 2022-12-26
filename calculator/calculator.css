@@ -105,3 +105,19 @@ p {
   height: 82px;
   float: left;
 }
+.button:active {
+  border-right: none;
+  color: #ed73a2;
+}
+.especial-button:active {
+  border-right: none;
+  color: #ed73a2;
+}
+.plus-button:active {
+  border-right: none;
+  color: #ed73a2;
+}
+.equal-button:active {
+  border-right: none;
+  color: #ed73a2;
+}
