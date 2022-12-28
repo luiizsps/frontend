@@ -22,10 +22,10 @@ h1 {
 .especial-button,
 .plus-button,
 .equal-button,
-.buttons {
+.main {
   border: 3px solid #642f00;
 }
-.buttons {
+.main {
   box-shadow: 4px 1.5px #642f00;
   border-bottom-width: 5px;
   font-size: 30px;
