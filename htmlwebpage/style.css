@@ -262,6 +262,8 @@ footer {
 .row {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 60px;
+  align-items: flex-start;
 }
 
 aside {
@@ -270,4 +272,5 @@ aside {
 
 article {
   flex: 0 0 825px;
+  margin-bottom: 0;
 }
