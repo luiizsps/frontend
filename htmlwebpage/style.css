@@ -258,3 +258,16 @@ footer {
   gap: 20px;
   margin-bottom: 25px;
 }
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+aside {
+  flex: 0 0 300px;
+}
+
+article {
+  flex: 0 0 825px;
+}
