@@ -104,8 +104,6 @@ img {
 }
 
 /* FEATURES */
-.features-icon {
-}
 
 .features-title {
   margin-bottom: 16px;
@@ -148,7 +146,6 @@ img {
 
 h3 {
   margin-bottom: 24px;
-  font-size: ;
 }
 
 .chair-details {
@@ -165,9 +162,6 @@ h3 {
 
 .chair-details li:last-child {
   margin-bottom: 0;
-}
-
-.chair-icon {
 }
 
 .chair-price {
