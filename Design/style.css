@@ -21,6 +21,7 @@ FONT SIZE SYSTEM (px)
 body {
   font-family: "Inter", sans-serif;
   color: #343a40;
+  border-bottom: 8px solid #087f5b;
 }
 
 .container {
@@ -118,6 +119,9 @@ img {
 
 /* TESTIMONIAL */
 .testimonial-section {
+  background-color: #087f5b;
+  color: #fff;
+  padding: 24px;
 }
 
 .testimonial-box {
@@ -174,6 +178,7 @@ h3 {
 }
 
 footer {
+  color: #495057;
   margin-bottom: 48px;
   font-size: 14px;
 }
