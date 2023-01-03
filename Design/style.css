@@ -104,6 +104,11 @@ img {
 }
 
 /* FEATURES */
+.feature-icon {
+  stroke: #087f5b;
+  height: 5px;
+  width: 5px;
+}
 
 .features-title {
   margin-bottom: 16px;
