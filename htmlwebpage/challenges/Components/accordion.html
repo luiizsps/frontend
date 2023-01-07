@@ -35,12 +35,14 @@
       .accordion {
         width: 700px;
         margin: 100px auto;
+        padding: 20px;
       }
 
       svg,
       .title {
         color: #087f5b;
       }
+
       .header {
         display: flex;
         justify-content: space-between;
@@ -51,20 +53,44 @@
 
   <body>
     <div class="accordion">
-      <div class="header">
-        <h2 class="title">02 How long do I have to return my chair?</h2>
-        <svg
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M6.34317 7.75732L4.92896 9.17154L12 16.2426L19.0711 9.17157L17.6569 7.75735L12 13.4142L6.34317 7.75732Z"
-            fill="currentColor"
-          />
-        </svg>
+      <div class="item">
+        <div class="header">
+          <p class="number">02</p>
+          <p class="text">How long do I have to return my chair?</p>
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon"
+          >
+            <path
+              d="M6.34317 7.75732L4.92896 9.17154L12 16.2426L19.0711 9.17157L17.6569 7.75735L12 13.4142L6.34317 7.75732Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+        <div class="hidden-box">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+            voluptates iste tenetur nesciunt quisquam asperiores, nihil
+            accusamus voluptate ipsam consequuntur, possimus perferendis dolores
+            at molestias? Eius omnis aliquid praesentium explicabo.
+          </p>
+          <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>
+              Culpa voluptates iste tenetur nesciunt quisquam asperiores, nihil
+            </li>
+            <li>
+              accusamus voluptate ipsam consequuntur, possimus perferendis
+            </li>
+            <li>
+              dolores at molestias? Eius omnis aliquid praesentium explicabo.
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </body>
