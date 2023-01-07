@@ -30,6 +30,7 @@
       body {
         font-family: "Inter", sans-serif;
         color: #343a40;
+        line-height: 1;
       }
 
       .accordion {
@@ -38,8 +39,21 @@
         padding: 20px;
       }
 
-      svg,
-      .title {
+      .text,
+      .number {
+        font-size: 24px;
+        font-weight: 500;
+        color: #087f5b;
+        display: inline;
+      }
+
+      .number {
+        margin-right: 15px;
+      }
+
+      .icon {
+        width: 24px;
+        height: 24px;
         color: #087f5b;
       }
 
@@ -48,6 +62,23 @@
         justify-content: space-between;
         align-items: center;
       }
+
+      .hidden-box {
+      }
+
+      .hidden-box p {
+        line-height: 1.6;
+        margin-bottom: 24px;
+      }
+
+      .hidden-box ul {
+        color: #868e96;
+        margin-left: 18px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
     </style>
   </head>
 
@@ -55,8 +86,10 @@
     <div class="accordion">
       <div class="item">
         <div class="header">
-          <p class="number">02</p>
-          <p class="text">How long do I have to return my chair?</p>
+          <div class="title">
+            <p class="number">02</p>
+            <p class="text">How long do I have to return my chair?</p>
+          </div>
           <svg
             width="24"
             height="24"
