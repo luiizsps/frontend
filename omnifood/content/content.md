@@ -127,17 +127,17 @@ Recipe directory
 Help center
 Privacy & terms
 
+####
+
 ## Sections
 
 - Navigation
 - Hero
-- Features
-- How it works
-- Diets
-- Meals
-- CTA
-- Pricing
-- Gallery
-- Testimonials
 - Featured in
+- How it works
+- Meals (and list of diets)
+- CTA
+- Testimonials + gallery
+- Pricing + features
+- Call to action
 - Footer
