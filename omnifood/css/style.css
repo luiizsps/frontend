@@ -19,8 +19,11 @@ default: 1
 - SHADES:
 - ACCENTS:
 - GRAYS:
+#555
+#333
 
 --- 03 SHADOWS
+
 
 --- 04 BORDER-RADIUS
 
@@ -48,11 +51,71 @@ body {
   color: #555;
 }
 
+.section-hero {
+  background-color: #fae5d3;
+  padding: 9.6rem 0;
+}
+
 .hero {
   max-width: 130rem;
   display: grid;
+  align-items: center;
+  gap: 9.6rem;
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  color: #fff;
+  font-size: 2rem;
+  padding: 1.6rem 3.2rem;
+  border-radius: 0.9rem;
+  text-decoration: none;
+
+  transition: background-color 0.3s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #cf711f;
+  color: #fff;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #fff;
+  color: #555;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #fae5d3;
+  color: #555;
+
+  box-shadow: inset 0 0 0 3px #fff;
 }
 
 .hero-img {
