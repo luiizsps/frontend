@@ -47,3 +47,14 @@ body {
   font-weight: 400;
   color: #555;
 }
+
+.hero {
+  max-width: 130rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+}
+
+.hero-img {
+  width: 100%;
+}
