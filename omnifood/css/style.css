@@ -15,12 +15,11 @@ default: 1
 --- 02 COLORS
 
 - PRIMARY: #e67e22
-- TINTS:
-- SHADES:
-- ACCENTS:
-- GRAYS:
-#555
-#333
+- TINTS: #fae5d3
+- SHADES: #cf711f
+- ACCENTS: 
+- GRAYS: #555 #333
+
 
 --- 03 SHADOWS
 
@@ -41,7 +40,7 @@ Spacing System (px)
 }
 
 html {
-  font-size: 62.5%; /*  Equivalente a 10px  */
+  font-size: 52.5%; /*  Equivalente a 8.4px  */
 }
 
 body {
@@ -124,4 +123,33 @@ body {
 
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+.delivered-meals {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 8rem;
+}
+
+.delivered-imgs img {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+  margin-right: -1.6rem;
+  border: 3px solid #fae5d3;
+}
+
+.delivered-imgs img:last-child {
+  margin: 0;
+}
+
+.delivered-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.delivered-text span {
+  color: #cf711f;
+  font-weight: 700;
 }
