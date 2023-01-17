@@ -231,6 +231,12 @@ body {
   padding: 0.96rem 0;
 }
 
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
 .grid {
   display: grid;
   gap: 9.6rem;
