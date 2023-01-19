@@ -25,7 +25,15 @@ body {
 
 .grid {
   display: grid;
-  gap: 9.6rem;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+}
+
+.grid-vertical-centered {
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+  align-items: center;
 }
 
 .grid--2-cols {
