@@ -13,6 +13,10 @@ Medium: 500
 Semi-bold: 500
 Bold: 700
 
+- LETTER SPACING
+0.5px
+0.75px
+
 - FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
@@ -81,13 +85,33 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.heading-primary {
-  font-size: 5.2rem;
-  line-height: 1.05;
+.heading-primary,
+.heading-secondary {
   font-weight: 700;
   color: #333;
   letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
   margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.subheading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  color: #cf711f;
+  margin-bottom: 1.6rem;
 }
 
 .hero-description {
@@ -251,7 +275,7 @@ body {
 /* HOW IT WORKS SECTION */
 
 .section-how {
-  padding: 0.96rem 0;
+  padding: 9.6rem 0;
 }
 
 .step-img {
