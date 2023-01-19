@@ -24,10 +24,10 @@ Bold: 700
 --- 02 COLORS
 
 - PRIMARY: #e67e22
-- TINTS: #fae5d3
+- TINTS: #fdf2e9 , #fae5d3
 - SHADES: #cf711f
 - ACCENTS: 
-- GRAYS: #555 #333
+- GRAYS: #555 , #333
 
 
 --- 03 SHADOWS
@@ -173,9 +173,36 @@ Spacing System (px)
 }
 
 .step-img-box {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.step-img-box::before,
+.step-img-box::after {
+  content: "";
+  display: block;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.step-img-box::before {
+  width: 60%;
+  padding-bottom: 60%;
+  background-color: #fdf2e9;
+  z-index: -2;
+}
+
+.step-img-box::after {
+  width: 45%;
+  padding-bottom: 45%;
+  background-color: #fae5d3;
+  z-index: -1;
 }
 
 .step-img {
