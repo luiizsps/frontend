@@ -59,6 +59,12 @@ body {
   margin-bottom: 9.6rem;
 }
 
+.heading-tertiary {
+  font-size: 3.6rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
 .subheading {
   display: block;
   font-size: 1.6rem;
