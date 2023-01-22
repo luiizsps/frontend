@@ -249,15 +249,24 @@ Spacing System (px)
   margin-bottom: 3.2rem;
 }
 
-.meal-atributes {
+.meal-attributes {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
-.meal-atribute {
+.meal-attribute {
   font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.meal-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #e67e22;
 }
 
 .meal-img {
