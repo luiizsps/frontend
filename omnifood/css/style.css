@@ -244,6 +244,12 @@ Spacing System (px)
 
 .meal {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 1.1rem;
+  overflow: hidden;
+}
+
+.meal-content {
+  padding: 2.4rem 4.8rem;
 }
 
 .meal-tags {
