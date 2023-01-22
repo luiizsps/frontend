@@ -241,3 +241,23 @@ Spacing System (px)
 .section-meals {
   padding: 9.6rem 0;
 }
+
+.meal-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.meal-atributes {
+  list-style: none;
+  display: flex;
+}
+
+.meal-atribute {
+  font-size: 1.8rem;
+}
+
+.meal-img {
+  width: 100%;
+}
