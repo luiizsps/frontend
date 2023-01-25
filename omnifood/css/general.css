@@ -143,6 +143,13 @@ body {
   border-bottom: 1px solid transparent;
 }
 
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
 /* HELPER CLASSES */
 
 .margin-right-sm {
