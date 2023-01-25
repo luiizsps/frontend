@@ -29,6 +29,10 @@ body {
   column-gap: 6.4rem;
 }
 
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
 .grid-vertical-centered {
   display: grid;
   row-gap: 9.6rem;
