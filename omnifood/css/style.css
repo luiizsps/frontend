@@ -512,6 +512,7 @@ Spacing System (px)
 }
 
 .cta {
+  overflow: hidden;
   display: grid;
   grid-template-columns: 2fr 1fr;
   background-color: #e67e22;
@@ -524,7 +525,12 @@ Spacing System (px)
 }
 
 .cta-img-box {
-  background-image: url("../img/eating.jpg");
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(235, 151, 78, 0.35),
+      rgba(230, 125, 34, 0.35)
+    ),
+    url("../img/eating.jpg");
   background-size: cover;
   background-position: center;
 }
