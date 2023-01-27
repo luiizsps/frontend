@@ -93,15 +93,28 @@ body {
   margin-bottom: 4.8rem;
 }
 
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2fd;
+  align-self: end;
+}
+
+.btn--form:hover {
+  background-color: #fdf2fd;
+  color: #555;
+}
+
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
-  color: #fff;
   font-size: 2rem;
   font-weight: 600;
   padding: 1.6rem 3.2rem;
   border-radius: 0.9rem;
   text-decoration: none;
+  border: none;
+  cursor: pointer;
 
   transition: all 0.3s;
 }
@@ -154,6 +167,10 @@ body {
   gap: 1.6rem;
 }
 
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+}
 /* HELPER CLASSES */
 
 .margin-right-sm {
