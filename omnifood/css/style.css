@@ -594,6 +594,11 @@ Spacing System (px)
   padding: 9.6rem 0;
 }
 
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer-logo {
   display: block;
   margin-bottom: 3.2rem;
@@ -611,6 +616,7 @@ Spacing System (px)
 }
 
 .copyright {
+  margin-top: auto;
   font-size: 1.4rem;
   line-height: 1.6rem;
   color: #767676;
@@ -620,6 +626,12 @@ Spacing System (px)
   font-size: 1.8rem;
   font-weight: 500;
   margin-bottom: 4rem;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
 }
 
 .footer-nav {
