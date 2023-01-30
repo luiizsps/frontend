@@ -105,6 +105,12 @@ Spacing System (px)
   padding: 4.8rem 0 9.6rem 0;
 }
 
+@media (max-width: 1200px) {
+  .section-hero {
+    background-color: orangered;
+  }
+}
+
 .hero {
   max-width: 130rem;
   display: grid;
