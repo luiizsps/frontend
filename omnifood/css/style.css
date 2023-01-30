@@ -111,6 +111,12 @@ Spacing System (px)
   }
 }
 
+@media (max-width: 600px) {
+  .section-hero {
+    border: 20px dashed blue;
+  }
+}
+
 .hero {
   max-width: 130rem;
   display: grid;
