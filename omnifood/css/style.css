@@ -114,6 +114,7 @@ Spacing System (px)
 @media (max-width: 600px) {
   .section-hero {
     border: 20px dashed blue;
+    background-color: blue;
   }
 }
 
