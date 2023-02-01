@@ -13,4 +13,11 @@
 }
 
 @media (max-width: 75em) {
+  html {
+    font-size: 47.25%;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
 }
