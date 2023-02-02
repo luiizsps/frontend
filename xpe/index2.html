@@ -1,38 +1,34 @@
 <html>
   <script>
     function somaMultiplos3ou5(numero) {
-      var mult3 = 0;
-      var mult5 = 0;
+      var mult3 = 3;
+      var mult5 = 5;
+      var listMult3 = [];
+      var listMult5 = [];
       var mult3String;
       var lastNumber;
-      var soma = 0;
       var i = 1;
 
-      /* Loop que roda enquanto o múltiplo de 3 for menor que o número informado */
+      /* Loop que roda enquanto o múltiplo de 5 ou de 3 for menor que o número informado */
       while (mult3 < numero) {
-        /* Transforma o múltiplo de 3 em string e salva o último algarismo que compõe este número */
         mult3String = mult3.toString();
         lastNumber = mult3String[mult3String.length - 1];
 
         if (mult5 >= numero) {
-          /* Testa se o múltiplo de 3 também é múltiplo de 5 */
           if (lastNumber === "0" || lastNumber === "5") {
-            mult3 = i * 3;
-            i++;
             continue;
           } else {
-            soma += mult3;
+            listMult3 += mult3;
           }
         } else if (lastNumber === "0" || lastNumber === "5") {
-          soma += mult5;
+          continue;
         } else {
-          soma += mult3 + mult5;
+          listMult3 += mult3;
+          listMult5 += mult5;
         }
-
-        mult3 = i * 3;
-        mult5 = i * 5;
-        i++;
       }
+
+      for (i = 0; i < listMult3.length; i++) {}
 
       return soma;
     }
