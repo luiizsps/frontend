@@ -98,6 +98,20 @@ Spacing System (px)
   background-color: #cf711f;
 }
 
+/* MOBILE */
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
 /* HERO SECTION */
 
 .section-hero {
