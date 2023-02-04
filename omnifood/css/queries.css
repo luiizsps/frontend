@@ -115,19 +115,38 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
-    width: 100vw;
+    height: 100vh;
+    width: 100%;
+    transform: translateX(100%);
 
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.5s ease-in;
 
-    /* hide nav */
+    /* hide nav visually */
     opacity: 0;
+
+    /* make it unacessibible to mouse and keyboard */
+    pointer-events: none;
+
+    /* hide it from  screen readers */
+    visibility: hidden;
   }
 
   .nav-open .main-nav {
     opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
   }
 
   .main-nav-list {
