@@ -111,9 +111,18 @@
   }
 
   .main-nav {
-    background-color: blue;
+    background-color: #fff;
     position: absolute;
     top: 0;
     left: 0;
+    height: 100%;
+    width: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-nav-list {
   }
 }
