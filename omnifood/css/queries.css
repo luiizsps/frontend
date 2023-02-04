@@ -121,6 +121,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    /* hide nav */
+    opacity: 0;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
   }
 
   .main-nav-list {
