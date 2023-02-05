@@ -165,4 +165,9 @@
   .grid--4-cols {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .diets {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
 }
