@@ -253,4 +253,17 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 1.6rem;
   }
+
+  .cta {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-text-box {
+    padding: 3.2rem;
+  }
+
+  .cta-img-box {
+    height: 32rem;
+    grid-row: 1;
+  }
 }
