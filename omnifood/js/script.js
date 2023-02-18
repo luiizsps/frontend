@@ -1,4 +1,4 @@
-const yearEl = document.querySelector("heading-primary");
+const yearEl = document.querySelectorAll(".year");
+console.log(yearEl);
 const currentYear = new Date().getFullYear();
-console.log(currentYear);
 yearEl.textContent = currentYear;
