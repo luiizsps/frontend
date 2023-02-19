@@ -3,3 +3,5 @@ const yearEl = document.querySelector(".year");
 console.log(yearEl);
 const currentYear = new Date().getFullYear();
 yearEl.textContent = currentYear;
+
+const btnNav = document.querySelector(".btn-mobile-nav");
