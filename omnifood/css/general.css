@@ -8,6 +8,7 @@
 
 html {
   font-size: 52.5%; /*  Equivalente a 8.4px  */
+  scroll-behavior: smooth;
 }
 
 body {
