@@ -6,4 +6,4 @@ const age = year - 2002;
 
 const firstName = "Luiz Sérgio";
 const lastName = "Passos da Silva";
-console.log("${firstName} ${lastName}");
+console.log(`Name: ${firstName} ${lastName}`);
