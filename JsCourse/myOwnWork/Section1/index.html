@@ -7,12 +7,13 @@
     <title>JavaScript Fundamentals – Part 1</title>
     <style>
       body {
-        height: 100vh;
         display: flex;
-        align-items: center;
+        flex-direction: column;
+        align-items: space-evenly;
+        height: 100vh;
         background: linear-gradient(to top left, #28b487, #7dd56f);
       }
-      h1 {
+      h2 {
         font-family: sans-serif;
         font-size: 50px;
         line-height: 1.3;
@@ -21,10 +22,45 @@
         text-align: center;
         color: white;
       }
+
+      .container {
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      label {
+        font-weight: 600;
+      }
+
+      .result-section {
+        margin-top: 60px;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+      }
     </style>
   </head>
   <body>
-    <h1>JavaScript Fundamentals - Part 1</h1>
+    <h2>Body Mass Index</h2>
+    <section class="container">
+      <div class="firstInput">
+        <h4>First Person</h4>
+        <label for="firstMass">Weight(kg):</label>
+        <input type="text" name="firstMass" id="firstMass" />
+        <label for="firstHeight">Height(m):</label>
+        <input type="text" name="firstHeight" id="firstHeight" />
+      </div>
+      <div class="secondInput">
+        <h4>Second Person</h4>
+        <label for="secondMass">Weight(kg):</label>
+        <input type="text" name="secondMass" id="secondMass" />
+        <label for="secondHeight">Height(m):</label>
+        <input type="text" name="secondHeight" id="secondHeight" />
+      </div>
+    </section>
+    <section class="result-section">
+      <p class="result"></p>
+    </section>
     <script src="js/script.js"></script>
   </body>
 </html>
