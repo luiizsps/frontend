@@ -21,6 +21,10 @@ if (firstBMI > secondBMI)
   resultEl.innerHTML = "The first person has a bigger BMI";
 else resultEl.innerHTML = "The second person has a bigger BMI";
 */
-
+const jonasAge = 29;
 const jonasNew = `I'm Jonas, I'm ${jonasAge} years old`;
 console.log(jonasNew);
+
+console.log(`Template
+Literals
+are cool`);
