@@ -28,7 +28,6 @@ console.log(jonasNew);
 console.log(`Template
 Literals
 are cool`);
-
 */
 
 const johnWeight = 80;
