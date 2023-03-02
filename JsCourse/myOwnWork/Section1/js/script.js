@@ -46,3 +46,6 @@ else console.log(`Jhon has a biggr BMI ${johnBMI} than Mark ${markBMI}.`);
 const age = prompt("What's your age?");
 if (Number(age) === 18) console.log("Wow! Now you are an adult!!");
 */
+
+const dolphins = [96, 108, 89];
+const koalas = [88, 91, 110];
