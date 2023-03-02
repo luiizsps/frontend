@@ -28,7 +28,7 @@ console.log(jonasNew);
 console.log(`Template
 Literals
 are cool`);
-*/
+
 
 const johnWeight = 80;
 const johnHeight = 1.82;
@@ -41,3 +41,7 @@ const johnBMI = (johnWeight / johnHeight ** 2).toFixed(2);
 if (markBMI > johnBMI)
   console.log(`Mark has a bigger BMI ${markBMI} than John ${johnBMI}.`);
 else console.log(`Jhon has a biggr BMI ${johnBMI} than Mark ${markBMI}.`);
+*/
+
+const age = prompt("What's your age?");
+if (Number(age) === 18) console.log("Wow! Now you are an adult!!");
