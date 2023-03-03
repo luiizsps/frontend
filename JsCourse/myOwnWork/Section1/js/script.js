@@ -64,9 +64,17 @@ koalasScore /= koalas.length;
 if (dolphinsScore > koalasScore) console.log("Dolphins wins.");
 else if (koalasScore > dolphinsScore) console.log("Koalas wins.");
 else console.log("Draw.");
-*/
+
 
 const age = 17;
 
 const drink = age >= 18 ? "wine" : "water";
 console.log(drink);
+*/
+
+const bill = 20.3;
+const tip = Number(
+  (bill > 50 && bill < 300 ? bill * 0.15 : bill * 0.2).toFixed(2)
+);
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value 
+${bill + tip}`);
