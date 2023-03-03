@@ -45,7 +45,7 @@ else console.log(`Jhon has a biggr BMI ${johnBMI} than Mark ${markBMI}.`);
 
 const age = prompt("What's your age?");
 if (Number(age) === 18) console.log("Wow! Now you are an adult!!");
-*/
+
 
 const dolphins = [96, 108, 89];
 let dolphinsScore = 0;
@@ -64,3 +64,9 @@ koalasScore /= koalas.length;
 if (dolphinsScore > koalasScore) console.log("Dolphins wins.");
 else if (koalasScore > dolphinsScore) console.log("Koalas wins.");
 else console.log("Draw.");
+*/
+
+const age = 19;
+age >= 18
+  ? console.log("You can drink wine.")
+  : console.log("You can't drink wine.");
