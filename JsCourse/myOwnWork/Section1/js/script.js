@@ -53,7 +53,7 @@ const koalas = [88, 91, 110];
 let koalasScore = 0;
 let i;
 
-for (i = 0; koalas.length - 1; i++) {
+for (i = 0; i < koalas.length - 1; i++) {
   if (dolphins[i] >= 100) dolphinsScore += dolphins[i];
   if (koalas[i] >= 100) koalasScore += koalas[i];
 }
