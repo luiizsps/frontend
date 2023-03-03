@@ -48,4 +48,19 @@ if (Number(age) === 18) console.log("Wow! Now you are an adult!!");
 */
 
 const dolphins = [96, 108, 89];
+let dolphinsScore = 0;
 const koalas = [88, 91, 110];
+let koalasScore = 0;
+let i;
+
+for (i = 0; koalas.length - 1; i++) {
+  if (dolphins[i] >= 100) dolphinsScore += dolphins[i];
+  if (koalas[i] >= 100) koalasScore += koalas[i];
+}
+
+dolphinsScore /= dolphins.length;
+koalasScore /= koalas.length;
+
+if (dolphinsScore > koalasScore) console.log("Dolphins wins.");
+else if (koalasScore > dolphinsScore) console.log("Koalas wins.");
+else console.log("Draw.");
