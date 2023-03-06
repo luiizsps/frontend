@@ -25,8 +25,6 @@ const arrow = (birthYear) => 2023 - birthYear;
 const juice = fruitProcesser(3, 2);
 console.log(juice);
 
-arrow();
-
 const yearsUntilRetiremant = (birthYear, firstName) => {
   const age = 2037 - birthYear;
   const retirement = 65 - age;
