@@ -26,10 +26,10 @@ const juice = fruitProcesser(3, 2);
 console.log(juice);
 
 const yearsUntilRetiremant = (birthYear, firstName) => {
-  const age = 2037 - birthYear;
+  const age = 2023 - birthYear;
   const retirement = 65 - age;
 
-  return `${firstName} is ${retirement} away from retirement`;
+  return `${firstName} is ${retirement} years away from retirement`;
 };
 
-console.log(yearsUntilRetiremant(2002));
+console.log(yearsUntilRetiremant(2002, "Luiz"));
