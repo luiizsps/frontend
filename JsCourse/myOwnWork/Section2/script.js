@@ -6,17 +6,6 @@ function logger() {
 
 logger();
 
-// function declaration
-function fruitProcesser(apples, strawberries) {
-  console.log(apples, strawberries);
-
-  const applePieces = cutPieces(apples);
-  const strawberryPieces = cutPieces(strawberries);
-
-  const juice = `Juice with ${applePieces} pieces of apples and ${strawberryPieces} pieces of strawberries`;
-  return juice;
-}
-
 // function expression
 const func = function (apples, strawberries) {
   console.log(apples, strawberries);
@@ -38,5 +27,16 @@ const yearsUntilRetiremant = (birthYear, firstName) => {
 const cutPieces = function (fruit) {
   return fruit * 4;
 };
+
+// function declaration
+function fruitProcesser(apples, strawberries) {
+  console.log(apples, strawberries);
+
+  const applePieces = cutPieces(apples);
+  const strawberryPieces = cutPieces(strawberries);
+
+  const juice = `Juice with ${applePieces} pieces of apples and ${strawberryPieces} pieces of strawberries`;
+  return juice;
+}
 
 console.log(yearsUntilRetiremant(2002, "Luiz"));
