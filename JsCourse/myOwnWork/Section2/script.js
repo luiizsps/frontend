@@ -10,7 +10,10 @@ logger();
 function fruitProcesser(apples, strawberries) {
   console.log(apples, strawberries);
 
-  const juice = `Juice with ${apples} apples and ${strawberries} strawberries`;
+  const applePieces = cutPieces(apples);
+  const strawberryPieces = cutPieces(strawberries);
+
+  const juice = `Juice with ${applePieces} apples and ${strawberryPieces} strawberries`;
   return juice;
 }
 
@@ -30,6 +33,10 @@ const yearsUntilRetiremant = (birthYear, firstName) => {
   const retirement = 65 - age;
 
   return `${firstName} is ${retirement} years away from retirement`;
+};
+
+const cutPieces = function (fruit) {
+  return fruit * 4;
 };
 
 console.log(yearsUntilRetiremant(2002, "Luiz"));
