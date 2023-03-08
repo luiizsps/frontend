@@ -13,7 +13,7 @@ function fruitProcesser(apples, strawberries) {
   const applePieces = cutPieces(apples);
   const strawberryPieces = cutPieces(strawberries);
 
-  const juice = `Juice with ${applePieces} apples and ${strawberryPieces} strawberries`;
+  const juice = `Juice with ${applePieces} pieces of apples and ${strawberryPieces} pieces of strawberries`;
   return juice;
 }
 
