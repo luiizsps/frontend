@@ -1,5 +1,6 @@
 "use strict";
 
+/*
 function logger() {
   console.log("My name is Luiz");
 }
@@ -40,3 +41,8 @@ function fruitProcesser(apples, strawberries) {
 }
 
 console.log(yearsUntilRetiremant(2002, "Luiz"));
+*/
+
+const calculateAge = function (birthYear) {
+  return 2023 - birthYear;
+};
