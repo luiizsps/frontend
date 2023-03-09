@@ -46,3 +46,10 @@ console.log(yearsUntilRetiremant(2002, "Luiz"));
 const calculateAge = function (birthYear) {
   return 2023 - birthYear;
 };
+
+const yearsUntilRetiremant = (birthYear, firstName) => {
+  const age = calculateAge(birthYear);
+  const retirement = 65 - age;
+
+  return `${firstName} is ${retirement} years away from retirement`;
+};
