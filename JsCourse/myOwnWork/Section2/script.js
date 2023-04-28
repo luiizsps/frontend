@@ -55,6 +55,7 @@ const yearsUntilRetiremant = (birthYear, firstName) => {
   return `${firstName} is ${retirement} years away from retirement`;
 };
 */
-// coding challange 1
 
+const points = [81, 82, 83, 84];
 
+console.log(points.length); // returns the size of an array
