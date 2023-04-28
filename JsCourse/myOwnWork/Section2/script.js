@@ -59,3 +59,5 @@ const yearsUntilRetiremant = (birthYear, firstName) => {
 const points = [81, 82, 83, 84];
 
 console.log(points.length); // returns the size of an array
+points.push(85);
+console.log(points);
