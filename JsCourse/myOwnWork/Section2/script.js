@@ -59,5 +59,22 @@ const yearsUntilRetiremant = (birthYear, firstName) => {
 const points = [81, 82, 83, 84];
 
 console.log(points.length); // returns the size of an array
+// adciona um elemento ao fim do array e retorna o tamanho do array
 points.push(85);
+
+// adiciona um elemento ao inicio do array e retorna o tamanho do array
+points.unshift(80);
+
+// remove o ultimo elemento e retorna o elemento removido
+points.pop();
+
+// remove o primeiro elemento do array e o retorna
+points.shift();
+
+// retorna a posição onde o elemento informado se encontra
+points.indexOf(82);
+
+//retorna true ou false caso o elemento pertença ou não pertença ao array
+points.includes(82);
+
 console.log(points);
