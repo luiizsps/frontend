@@ -88,4 +88,5 @@ const Luiz = {
   birthday: "06/10",
 };
 
-console.log();
+console.log(Luiz.firstName);
+console.log(Luiz["lastName"]);
