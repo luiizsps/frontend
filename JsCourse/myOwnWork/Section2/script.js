@@ -54,7 +54,7 @@ const yearsUntilRetiremant = (birthYear, firstName) => {
 
   return `${firstName} is ${retirement} years away from retirement`;
 };
-*/
+
 
 const points = [81, 82, 83, 84];
 
@@ -78,3 +78,14 @@ points.indexOf(82);
 points.includes(82);
 
 console.log(points);
+*/
+
+// object
+const Luiz = {
+  firstName: "Luiz Sérgio",
+  lastName: "Passos da Silva",
+  age: 20,
+  birthday: "06/10",
+};
+
+console.log();
