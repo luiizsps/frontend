@@ -88,5 +88,14 @@ const Luiz = {
   birthday: "06/10",
 };
 
-console.log(Luiz.firstName);
-console.log(Luiz["lastName"]);
+// console.log(Luiz.firstName);
+// console.log(Luiz["lastName"]);
+
+const answer = "lastName";
+
+if (Luiz[answer]) {
+  // se a resposta for undefined, o else será executado
+  console.log(Luiz[answer]);
+} else {
+  console.log("answer not found");
+}
