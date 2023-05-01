@@ -99,3 +99,7 @@ if (Luiz[answer]) {
 } else {
   console.log("answer not found");
 }
+
+Luiz.twitter = "@luizsps";
+
+console.log(Luiz);
