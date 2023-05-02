@@ -84,8 +84,11 @@ console.log(points);
 const Luiz = {
   firstName: "Luiz Sérgio",
   lastName: "Passos da Silva",
-  age: 20,
   birthday: "06/10",
+  hasDriverLicense: false,
+  calcAge: function (birthYear) {
+    return 2023 - birthYear;
+  },
 };
 
 // console.log(Luiz.firstName);
