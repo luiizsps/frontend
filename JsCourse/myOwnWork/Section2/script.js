@@ -78,18 +78,9 @@ points.indexOf(82);
 points.includes(82);
 
 console.log(points);
-*/
 
-// object
-const Luiz = {
-  firstName: "Luiz Sérgio",
-  lastName: "Passos da Silva",
-  birthday: "06/10",
-  hasDriverLicense: false,
-  calcAge: function (birthYear) {
-    return 2023 - birthYear;
-  },
-};
+
+
 
 // console.log(Luiz.firstName);
 // console.log(Luiz["lastName"]);
@@ -106,3 +97,35 @@ if (Luiz[answer]) {
 Luiz.twitter = "@luizsps";
 
 console.log(Luiz);
+*/
+
+// object
+const Luiz = {
+  firstName: "Luiz Sérgio",
+  lastName: "Passos da Silva",
+  birthYear: 2002,
+  hasDriverLicense: false,
+  /*
+  calcAge: function (birthYear) {
+    return 2023 - birthYear;
+  },
+  
+  calcAge: function () {
+    return 2023 - this.birthYear;
+  },
+  */
+
+  calcAge: function () {
+    this.age = 2023 - this.birthYear;
+    return;
+  },
+};
+
+Luiz.calcAge();
+
+console.log(Luiz.age);
+
+Luiz.birthYear = 2000;
+
+Luiz.calcAge();
+console.log(Luiz.age);
