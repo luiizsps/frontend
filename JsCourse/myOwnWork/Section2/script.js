@@ -117,7 +117,14 @@ const Luiz = {
 
   calcAge: function () {
     this.age = 2023 - this.birthYear;
-    return;
+    return this.age;
+  },
+  getSummary: function () {
+    console.log(
+      `${this.firstName} is a ${this.calcAge()} years old student, and he has ${
+        this.hasDriverLicense ? "a" : "no"
+      } drivers license.`
+    );
   },
 };
 
@@ -129,3 +136,4 @@ Luiz.birthYear = 2000;
 
 Luiz.calcAge();
 console.log(Luiz.age);
+Luiz.getSummary();
