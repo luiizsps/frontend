@@ -128,8 +128,6 @@ const Luiz = {
   },
 };
 
-Luiz.calcAge();
-
 console.log(Luiz.age);
 
 Luiz.birthYear = 2000;
