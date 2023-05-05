@@ -97,7 +97,7 @@ if (Luiz[answer]) {
 Luiz.twitter = "@luizsps";
 
 console.log(Luiz);
-*/
+
 
 // object
 const Luiz = {
@@ -114,7 +114,7 @@ const Luiz = {
     return 2023 - this.birthYear;
   },
   */
-
+/*
   calcAge: function () {
     this.age = 2023 - this.birthYear;
     return this.age;
@@ -135,3 +135,9 @@ Luiz.birthYear = 2000;
 Luiz.calcAge();
 console.log(Luiz.age);
 Luiz.getSummary();
+
+*/
+
+for (let i = 0; i < 10; i++) {
+  console.log("");
+}
