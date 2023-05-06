@@ -136,8 +136,9 @@ Luiz.calcAge();
 console.log(Luiz.age);
 Luiz.getSummary();
 
-*/
+
 
 for (let i = 0; i < 10; i++) {
   console.log("");
 }
+*/
