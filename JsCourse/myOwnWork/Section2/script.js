@@ -137,8 +137,12 @@ console.log(Luiz.age);
 Luiz.getSummary();
 
 
-
-for (let i = 0; i < 10; i++) {
-  console.log("");
-}
 */
+
+const types = [];
+
+const Luiz = ["Luiz Sérgio", "Passos da Silva", 2002, false];
+
+for (let i = 0; i < Luiz.length; i++) {
+  types.push(Luiz);
+}
