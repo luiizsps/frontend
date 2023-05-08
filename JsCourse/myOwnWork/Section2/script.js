@@ -146,3 +146,11 @@ const Luiz = ["Luiz Sérgio", "Passos da Silva", 2002, false];
 for (let i = 0; i < Luiz.length; i++) {
   types.push(Luiz);
 }
+
+i = 0;
+while (true) {
+  if (!Luiz[i]) {
+    break;
+  }
+  console.log(`Valor ${i + 1}: ${Luiz[i]}`);
+}
