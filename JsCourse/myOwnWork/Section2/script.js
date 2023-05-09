@@ -135,8 +135,6 @@ Luiz.birthYear = 2000;
 Luiz.calcAge();
 console.log(Luiz.age);
 Luiz.getSummary();
-
-
 */
 
 const types = [];
