@@ -135,7 +135,7 @@ Luiz.birthYear = 2000;
 Luiz.calcAge();
 console.log(Luiz.age);
 Luiz.getSummary();
-*/
+
 
 const types = [];
 
@@ -152,3 +152,4 @@ while (true) {
   }
   console.log(`Valor ${i + 1}: ${Luiz[i]}`);
 }
+*/
